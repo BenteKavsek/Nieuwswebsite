@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 65%;
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header-top{
+    display: flex;
+    padding: 3rem 0 2rem 0;
+    gap: 1rem;
+    align-items: end;
+}
+
+.header-top img{
+    width: 40%;
+    object-fit: contain;
+}
+
+.header-buttons{
+    width: 40%;
+    padding-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.header-buttons button{
+    border-radius: 1rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.login-btn{
+    border: 1px solid #D4D4D4;
+    background-color: white;
+    font-weight: 700;
+}
+
+.abonneer-btn{
+    background-color: #0097D8;
+    color: white;
+    border: none;
+}
+
+.header-menu{
+    width: 17%;
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-menu div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-menu div i{
+    font-size: 2rem;
+}
+
+.header-menu div h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header-nav{
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header-nav-list{
+    display: flex;
+}
+.header-nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-option{
+    padding: 0.8rem 0;
+    list-style: none;
+    color: #545454;
+    font-size: 1.2rem;
+}
+
+.nav-option:hover{
+    color: black;
+}
+
+.active{
+    color: #000;
+    border-bottom: 3px solid #000;
+}
