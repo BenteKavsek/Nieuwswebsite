@@ -183,3 +183,10 @@ body{
     border: 1px solid blue;
     margin: 1rem;
 }
+
+/* FOOTER */
+
+.footer-mid{
+    padding: 1rem 0;
+    display: flex;
+}
